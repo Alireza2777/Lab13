@@ -4,7 +4,6 @@
 //
 //  Created by Alireza Karimi on 2023-09-15.
 //
-
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -17,6 +16,9 @@
   [super viewDidLoad];
   // Do any additional setup after loading the view.
 }
-
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+  return YES;
+}
 
 @end
